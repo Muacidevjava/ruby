@@ -1,0 +1,22 @@
+
+### Explicação:
+
+1. **Importação de bibliotecas**: 
+   - `securerandom`: Para geração de caracteres aleatórios de forma segura.
+   - `tty-prompt`: Para interação com o usuário no terminal de maneira mais amigável.
+
+2. **Função `generate_password`**:
+   - Gera uma senha com base no comprimento especificado. Utiliza caracteres alfabéticos (maiúsculos e minúsculos) e dígitos.
+
+3. **Interface de usuário**:
+   - Usa `TTY::Prompt` para exibir mensagens e capturar entrada do usuário de forma interativa.
+   - O loop principal permite ao usuário gerar novas senhas ou sair do programa.
+
+### Como executar:
+Para executar o script:
+
+1. Certifique-se de ter Ruby instalado no seu sistema.
+2. Instale as gemas necessárias usando `gem install tty-prompt`.
+3. Salve o código em um arquivo com extensão `.rb`, por exemplo, `password_generator.rb`.
+4. Execute o arquivo Ruby com `ruby password_generator.rb`.
+
